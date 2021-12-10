@@ -1,30 +1,3 @@
-// var blood = [
-//     {
-//         "donor":"O-",
-//         "recipient":["AB+"||"AB-"||"A+"||"A-"||"B+"||"B-"||"O+"||"O-"]
-//     },{
-//         "donor":"O+",
-//         "recipient":["AB+"||"A+"||"B+"||"O+"]
-//     },{
-//         "donor":"B-",
-//         "recipient":["AB+"||"AB-"||"B+"||"B-"]
-//     },{
-//         "donor":"B+",
-//         "recipient":["AB+"||"B+"]
-//     },{
-//         "donor":"A-",
-//         "recipient":["AB+"||"AB-"||"A+"||"A-"]
-//     },{
-//         "donor":"A+",
-//         "recipient":["AB+"||"A+"]
-//     },{
-//         "donor":"AB-",
-//         "recipient":["AB+"||"AB-"]
-//     },{
-//         "donor":"AB+",
-//         "recipient":["AB+"]
-//     }
-// ];
 var donorBloodType = prompt("What is the donor blood type?");
 if (donorBloodType == donorBloodType.toLowerCase()) {
     alert("please use uppercase letters");
